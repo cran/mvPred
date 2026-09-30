@@ -1,0 +1,36 @@
+Package: mvPred
+Type: Package
+Title: Methods for Handling Missing Values in Linear Modeling
+Version: 0.1.0
+Authors@R: c(
+    person("Norman", "Matloff", email = "nsmatloff@ucdavis.edu", role = "aut"),
+    person("Cynthia", "Mascarenhas", email = "cin22jan@gmail.com", role = "aut"),
+    person("Billy", "Ouattara", email = "ouattarabilly33@hotmail.com", role = c("aut", "cre")),
+    person("Alekya", "Veluri", email = "alekyaveluri@gmail.com", role = "aut"))
+Maintainer: Billy Ouattara <ouattarabilly33@hotmail.com>
+Description: Provides user-friendly methods for handling missing data in regression modeling,
+    including available-case linear regression, multiple imputation, random-forest
+    imputation, and the Tower method. Implemented approaches include chained-equation
+    imputation described by van Buuren and Groothuis-Oudshoorn (2011)
+    <doi:10.18637/jss.v045.i03>, multiple imputation described by Honaker, King
+    and Blackwell (2011) <doi:10.18637/jss.v045.i07>, random-forest imputation
+    described by Stekhoven and Buehlmann (2012) <doi:10.1093/bioinformatics/btr597>,
+    and the Tower method described by Matloff and Mohanty (2023)
+    <https://CRAN.R-project.org/package=toweranNA>.
+Depends: R (>= 4.0.0)
+Imports: regtools, mice, Amelia, missForest, toweranNA, stats, utils,
+        qeML
+License: MIT + file LICENSE
+URL: https://github.com/matloff/mvPred
+BugReports: https://github.com/matloff/mvPred/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2026-09-20 20:17:20 UTC; ouatt
+Author: Norman Matloff [aut],
+  Cynthia Mascarenhas [aut],
+  Billy Ouattara [aut, cre],
+  Alekya Veluri [aut]
+Repository: CRAN
+Date/Publication: 2026-09-30 09:10:09 UTC
